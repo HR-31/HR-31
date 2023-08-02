@@ -1,0 +1,4 @@
+Ask user for height
+If height doesn't match criteria i.e. h < 1  or h > 8 then ask again
+Print row by row
+    Ensure to print a row of desired hashes and then begin a new line in the right place
