@@ -1,0 +1,25 @@
+sort1 uses: Bubble Sort
+
+How do you know?: There is a noticeable reduction in time spent once data is sorted.
+
+sort2 uses: Merge Sort
+
+How do you know?: It is noticeably quicker at sorting the text files in a majority of cases in comparison to the other two sorting programs.
+
+sort3 uses: Selection Sort
+
+How do you know?: It doesn't make much difference to time whether data is sorted or not. It sorts random data considerably faster than bubble sort for randomised data.
+
+Results of tests:
+
+Guesses	Bubble - There is a noticeable reduction in time elapsed once data is sorted.	Merge Sort - It is noticeably quicker at sorting the text files in a majority of cases in comparison to the other two sorting programs.	Selection - Doesn't make much difference to time whether data is sorted or not
+	            Sort 1	    Sort 2	    Sort 3
+random 5,000	0m0.094s	0m0.031s	0m0.049s
+random 10,000	0m0.331s	0m0.055s	0m0.176s
+random 50,000	0m8.344s	0m0.568s	0m3.493s
+sorted 5,000	0m0.031s	0m0.034s	0m0.048s
+sorted 10,000	0m0.056s	0m0.091s	0m0.208s
+sorted 50,000	0m0.469s	0m0.488s	0m3.479s
+Reversed 5000	0m0.093s	0m0.019s	0m0.050s
+Reversed 10,000	0m0.307s	0m0.058s	0m0.183s
+Reversed 50,000	0m6.682s	0m0.343s	0m4.131s
