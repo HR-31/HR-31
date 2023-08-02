@@ -1,0 +1,24 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "cs50 final project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code50/91540026.git"
+  },
+  "author": "Harish Ravi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/code50/91540026/issues"
+  },
+  "homepage": "https://github.com/code50/91540026#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "path": "^0.12.7"
+  }
+}
