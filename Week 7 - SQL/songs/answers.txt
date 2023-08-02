@@ -1,0 +1,3 @@
+Based on the average energy, valence and danceability figures of this person's listening history, I would guess this individual has an Orange audio aura.
+
+The data I used to come to my hypothesis is extremely limited therefore I can only make a best guess. Based on the calculations I made, this person could easily have fallen into the Purple audio aura bucket as well. Things could be improved if I had access to more data like: number of times each song listened to, how many hours spent listening to songs on spotify in total and any outliars in listening patterns (i.e. someone in the family had passed away towards the end of the year therefore the tone of songs changed).
