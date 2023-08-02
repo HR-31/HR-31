@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quoted
+{% endblock %}
+
+{% block main %}
+    <body>
+        <div class="alert alert-info" role="alert">
+            A share of {{ data.name }} ({{ data.symbol }}) costs ${{ "%.2f"|format(data.price) }}.
+        </div>
+    </body>
+{% endblock %}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="/static/styles.css" rel="stylesheet">
+        <title>Birthdays</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Birthdays</h1>
+        </div>
+        <div class="container">
+            <div class="section">
+
+                <h2>Add a Birthday</h2>
+                <!-- TODO 3: Create a form for users to submit a name, a month, and a day -->
+                <form action="/" method="post">
+                    <label for="name">Name:</label> <input placeholder="e.g: Harish" autofocus type="text" name="name"><br><br>
+                    <label for="month">Month:</label> <input placeholder="e.g: 1" type="number" min="1" max="12" name="month"><br><br>
+                    <label for="day">Day:</label> <input placeholder="e.g: 19" type="number" min="1" max="31" name="day"><br><br>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+
+            <div class="section">
+
+                <h2>All Birthdays</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Birthday</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- TODO 2: Loop through the database entries to display them in this table -->
+                        {% for birthdays in birthdays %}
+                            <tr>
+                                <td>{{ birthdays.name }}</td>
+                                <td>{{ birthdays.month }}/{{ birthdays.day }}</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

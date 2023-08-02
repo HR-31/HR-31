@@ -1,0 +1,80 @@
+/* Size for brand */
+nav .navbar-brand
+{
+    font-size: xx-large;
+}
+
+/* Colors for brand */
+nav .navbar-brand .blue
+{
+    color: #537fbe;
+}
+nav .navbar-brand .red
+{
+    color: #ea433b;
+}
+nav .navbar-brand .yellow
+{
+    color: #f5b82e;
+}
+nav .navbar-brand .green
+{
+    color: #2e944b;
+}
+
+
+/* Portfolio page */
+
+.portfolio {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.portfolio-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.portfolio-table th,
+.portfolio-table td {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 15px;
+    text-align: left;
+}
+
+.portfolio-table th {
+    background-color: #f8f8f8;
+    font-weight: bold;
+}
+
+.balances {
+    text-align: right;
+}
+
+.balances .cash,
+.balances .total {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+.balances span {
+    font-weight: bold;
+}
+
+
+/* Pie Chart */
+.chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;  /* Adjust as needed */
+}
+
+#piechart {
+    width: 900px;
+    height: 500px;
+}
+

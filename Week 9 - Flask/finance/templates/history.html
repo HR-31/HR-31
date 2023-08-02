@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    <div class="portfolio">
+        <table class="portfolio-table">
+            <tr>
+                <th>Symbol</th>
+                <th>Buy/Sell</th>
+                <th>Shares</th>
+                <th>Price</th>
+                <th>Date/Time</th>
+            </tr>
+            {% for transaction in transactions %}
+            <tr>
+                <td>{{ transaction['symbol'] }}</td>
+                <td>{{ transaction['bs'] }}</td>
+                <td>{{ transaction['shares'] }}</td>
+                <td>{{ transaction['price'] }}</td>
+                <td>{{ transaction['time'] }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+{% endblock %}
